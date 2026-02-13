@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Keep a LaunchTheme for API 31+ but avoid referencing Theme.SplashScreen
+         or attributes that may not be available depending on compileSdk. This
+         prevents resource linking errors while keeping the same background. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+</resources>

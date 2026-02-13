@@ -1,0 +1,24 @@
+<PS configuration V0.7> 
+<ProjectInformation> 
+CustomerName:gk 
+Address:pune 
+</ProjectInformation> 
+<Panel-05> 
+Location: kitchen 
+Module: 2M 
+<Switch> 
+SW-01,LAMP,10 
+SW-02,FAN-ON/OFF,12 
+SW-03,BELL,13 
+SW-04,LAMP,14 
+</Switch> 
+<Output> 
+OD-01,RLY,LAMP,1,0
+OD-02,RLY,FAN-LOW,2,0
+OD-03,RLY,FAN-HIGH,2,0
+OD-04,RLY,BELL,3,0
+OD-05,RLY,LAMP,4,0
+</Output> 
+</Panel-05> 
+<Connectivity> 
+</Connectivity>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For RS485 to USB adapters, you might need to specify vendor-id and product-id.
+         If left empty, it will match any USB device, which can be broad.
+         Example: <usb-device vendor-id="1234" product-id="5678" /> -->
+    <usb-device />
+</resources>

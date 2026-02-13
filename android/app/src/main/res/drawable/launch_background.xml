@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file defines the layout of your native splash screen. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- A solid background color. You can change this to any color you like. -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Your app icon, centered on the screen. -->
+    <item>
+        android:width="120dp"
+        android:height="120dp"
+        <bitmap android:gravity="center" android:src="@mipmap/assests/images/logo4.png" />
+</layer-list>
