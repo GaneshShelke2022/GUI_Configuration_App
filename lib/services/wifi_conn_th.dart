@@ -98,7 +98,7 @@ class WIFIConnTH {
           };
           final d2 = devTypeMap[dev] ?? '00';
 
-          // Data3 & Data4: DPID value (little-endian)
+          // Data3 & Data4: DPID value (little-endian) //
           final d3 = (val & 0xFF).toRadixString(16).padLeft(2, '0').toUpperCase();
           final d4 = ((val >> 8) & 0xFF).toRadixString(16).padLeft(2, '0').toUpperCase();
 
