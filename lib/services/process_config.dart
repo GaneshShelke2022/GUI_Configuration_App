@@ -29,7 +29,7 @@ class ProcessConfig {
     required String boardText,
     // The following serial port parameters are accepted for compatibility with the UI,
     // but they are not used in the hex generation logic itself. This makes the
-    // COM port details effectively optional for this function.
+    // COM port details effectively optional for this function.//
     String? baudRateStr,
     String? parityStr,
     String? dataBitsStr,
